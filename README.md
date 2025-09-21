@@ -1,6 +1,19 @@
 # MLFinLab Project - FIN221
 
 This project uses the Hudson and Thames MLFinLab library for Machine Learning in Finance coursework.
+I am using Anaconda Navigator and  Visual Studio Code as environmets.
+I have install the Python 3.11.13 version from the Hudson And Thames site
+
+    https://hudson-and-thames-mlfinlab-premium.readthedocs-hosted.com/en/latest/getting_started/installation.html
+
+I have had to - pip: install --upgrade --force-reinstall numba==0.57.1 llvmlite==0.40.1
+    using the Anaconda Prompt in order to get:
+
+    from mlfinlab.data_structures import time_data_structures
+    ...
+    time_bars = time_data_structures.get_time_bars(...
+
+    to work.
 
 ## Project Structure
 
