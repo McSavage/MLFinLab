@@ -1,0 +1,27 @@
+# MLFinLab Environment Configuration
+# This file contains the conda environment specification for the MlFinLab project
+
+name: MlFinLab
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - mlfinlab==2.3.0
+    - pandas>=2.0.0
+    - numpy>=1.23.0
+    - matplotlib>=3.7.0
+    - seaborn>=0.12.0
+    - plotly>=6.0.0
+    - scikit-learn>=1.1.0
+    - scipy>=1.15.0
+    - tensorflow>=2.12.0
+    - yfinance>=0.2.0
+    - jupyter
+    - ipykernel
+    - statsmodels
+    - cvxpy
+    - dash
+    - beautifulsoup4
